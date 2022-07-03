@@ -1,0 +1,40 @@
+/* Estilo sobre mi  */
+#about {
+    width: 100%;
+    height: 50vh;
+    background-color: #aca9a9;
+}
+.sobreMi {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 2em;
+}
+.sobreMi h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.textoAbout {
+    width: 90%;
+    height: 50vh;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: row;
+    font-size: 1.2em;
+    padding-top: 2em;
+}
+.textoAbout p {
+    margin: 0 1em;
+}
+.reloded {
+    font-weight: bold;
+    font-size: 1.3em;
+    font-style: italic;
+    text-align: end;
+    padding-bottom: 1em;
+}
+

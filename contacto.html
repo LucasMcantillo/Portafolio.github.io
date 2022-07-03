@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="isset/style__form.css" />
+    
+  </head>
+  <body>
+    <section id="contacto">
+      <div class="imgContacto">
+        <img src="./Imagenes/Contacto.jpg" alt="Contacto" width="100%" />
+      </div>
+      <div id="form">
+        <div class="encabezado">
+          <h1>Contacto</h1>
+          <p>¿Quierés contactarme?</p>
+          <p>
+            Llena el formulario y pondré en contacto contigo lo antes posible.
+          </p>
+        </div>
+        <form id="datos">
+          Nombre y Apellido:
+          <input type="text" id="nombre" class="ingresoDato" required /> Correo
+          electrónico<input
+            type="email"
+            id="mail"
+            class="ingresoDato"
+            required
+            placeholder="usuario@dominio.com"
+          />
+          Teléfono:
+          <input
+            type="tel"
+            id="phone"
+            class="ingresoDato"
+            placeholder="(XXX)XXX XXXX"
+          />
+          Asunto:
+          <input
+            type="text"
+            name="asunto"
+            id="asunto"
+            class="ingresoDato"
+            required
+          />
+          Mensaje:
+          <textarea
+            name="mensaje"
+            id="mensaje"
+            cols="70"
+            rows="8"
+            class="ingresoDato"
+            required
+          ></textarea>
+          <input type="submit" value="Enviar formulario" id="enviar" />
+        </form>
+      </div>
+    </section>
+    <script src="validar__form.js"></script>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+/* Estilo skills */
+#skills {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.containerSkillsIt, .containerSkillsLive {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.containerSkillsIt h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.containerSkillsLive h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.skillsIt, .skillsLive {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cardSkill {
+    width: 150px;
+    height: 150px;
+    background-color: #bbbbbb;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: flex-end;
+}
+.cardSkill p {
+    font-weight: bold;
+    margin-top: 0.5em;
+    font-size: 1.5em;
+}
+.cardSkillLive {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 4px solid #bbbbbb;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: flex-end;
+}
+.cardSkillLive p {
+    font-weight: bold;
+    margin-top: 0.5em;
+    font-size: 1em;
+}
+
+/* Estilo Formación */
+#formacion {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #bbbbbb;
+}
+.containerFormacion {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#formacion h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+.cardFormacion {
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    border: 4px solid #bbbbbb;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardFormacion p {
+    font-weight: bold;
+    margin-top: 0.5em;
+    font-size: 1em;
+} 
+.formacionDelante {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.formacionDetras {
+    backface-visibility: hidden;
+}
+.cardFormacion:hover {
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transition: all 0.7s linear;
+}
+.formacionDelante {
+    backface-visibility: hidden;
+}
+  
+.formacionDetras {
+    transform: rotateY(180deg);
+    visibility: visible;
+    position: fixed;
+    padding: 1em;
+    transition: 1s;
+}
+.formacionDetras .logro {
+    color: red;
+}

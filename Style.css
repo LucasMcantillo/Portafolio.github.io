@@ -1,0 +1,95 @@
+@import url("https: //fonts.googleapis.com/css2? family= Josefin+Slab & display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Josefin Slab";
+}
+.container {
+  height: 100vh;
+  display: flex;
+}
+.info {
+  width: 235px;
+  background-color: #bbbbbb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.info-personal {
+  margin-bottom: 30px;
+}
+.info-personal .foto {
+  width: 60%;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  border: 3px solid #484848;
+}
+.info-personal span {
+  font-size: 20px;
+  color: #000000;
+}
+.info-personal p {
+  font-size: 16px;
+  color: #000000;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  margin: 15px 0;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+}
+nav ul li a:hover {
+  color: #dc3545;
+}
+.seleccionado {
+  color: #dc3545;
+}
+.portada {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(imagenes/programador_1.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.portada h1 {
+  font-size: 68px;
+  color: #fff;
+}
+.portada h1 .rojo {
+  color: #dc3545;
+}
+.portada p {
+  font-size: 32px;
+  color: #fff;
+}
+.boton {
+  display: block;
+  width: 180px;
+  margin: 0 auto;
+  background-color: transparent;
+  border: 3px solid #490bd8;
+  margin-top: 30px;
+  padding: 10px 0;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 20px;
+}
+.boton a{
+  color: #ffffff;
+}
+.boton:hover {
+  background-color: #490bd8;
+}
